@@ -1,13 +1,12 @@
-html{
-    background-color: gray;
-}
+
 
 body{
-
+    border-top: 13px solid rgb(51, 51, 51);
     background-color:black;
     margin: 0;
     color:white;
     font-size: 20px;
+    line-height: 1.5;
     font-family: Vollkorn,-apple-system,BlinkMacSystemFont,Georgia,Times New Roman,Times,serif;
 
 }
@@ -34,17 +33,20 @@ img {
 .banner {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 
     margin-bottom: 56px;
-    padding-bottom: 48px;
+    padding: 48px 0;
     text-align: center;
     border-bottom: 3px double #666;
 }
+
+
 
 h1{
     font-weight: 900;
     font-size: 2em;
     margin-bottom: 0;
+    text-align: center;
+    margin-top: 0;
 }
 
 .banner p{
@@ -66,28 +68,22 @@ a:hover{
     color: gray;
 }
 
-/* .banner__avatar {
-    height: 120px;
-    margin: 0 auto 8px;
-    width: 120px;
-} */
-
-.banner__greeting {
-    margin-bottom: -4px;
+section{
+    border-bottom: 1px solid #666;
 }
 
-.display-1 {
-    color: #fff;
-    display: inline-block;
-    font-size: 47px;
-    font-weight: 700;
+grid.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+a>img {
+    transition: opacity .3s linear;
 }
 
 
-
-
-
-body {
+/* body {
     background-color: #0a0a0a;
     border-top: 13px solid #3a3a3a;
     color: #ccc;
@@ -96,4 +92,4 @@ body {
     line-height: 1.5;
     padding: 40px;
     text-align: center;
-}
+} */
