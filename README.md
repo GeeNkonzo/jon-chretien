@@ -5,3 +5,4 @@ Using the following technologies: html and css. I am recoding the Jon Chretien w
 
 To view the website you can visit:  https://geenkonzo.github.io/jon-chretien-project2/index.html
 
+
