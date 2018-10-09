@@ -80,8 +80,9 @@ section{
 
 }
 
-a>img {
+a > img {
     transition: opacity .3s linear;
+    
 }
 
 
