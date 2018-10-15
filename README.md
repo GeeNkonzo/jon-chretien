@@ -25,4 +25,11 @@ To view the website visit:  https://geenkonzo.github.io/jon-chretien-project2/in
 - Styled my header section accordingly
 - Created grids for each section
 - Inserted my images in grid cells with content where required
--
+- Styled my webpage according to the original one
+
+## Responsive Design
+
+- Made the necessary changes at certain breakpoints 
+- Changed the columns of all my grids to one
+- Centered the footer navbar
+- Changed the font size of banner content and made it smaller
