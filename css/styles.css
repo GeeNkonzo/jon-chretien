@@ -1,4 +1,4 @@
-
+/* Body styling */
 
 body {
     border-top: 13px solid rgb(51, 51, 51);
@@ -11,12 +11,16 @@ body {
 
 }
 
+/* IMG tag styling */
+
 img {
     display: block;
     height: auto;
     max-width: 100%;
 
 }
+
+/* class for header image */
 
 .baby-img {
     border-radius: 50%;
@@ -25,10 +29,14 @@ img {
     width: 120px;
 }
 
+/* Content container */
+
 .container {
     margin: 0 auto;
     max-width: 1240px;
 }
+
+/* Grid for banner in the header */
 
 .banner {
     display: grid;
@@ -39,7 +47,7 @@ img {
     border-bottom: 3px double #666;
 }
 
-
+/* Heading 1 styling */
 
 h1 {
     font-weight: 900;
@@ -49,6 +57,8 @@ h1 {
     margin-bottom: 16px;
 }
 
+/* Styling of the paragraph tag in the banner */
+
 .banner p {
     font-size: 1.7em;
     font-weight: 400;
@@ -57,6 +67,8 @@ h1 {
     margin-top: 0;
 
 }
+
+/* All anchor tags styled */
 
 a:link {
     color: #ff3;
@@ -72,11 +84,17 @@ a:hover {
     color: gray;
 }
 
+/* Styling of the Section tag */
+
 section {
     border-bottom: 1px solid #666;
     margin-bottom: 56px;
     padding-bottom: 72px;
 }
+
+/* class created for all the img tags in order 
+to create the opacity effect when hovering over 
+each image */
 
 .image img {
     opacity: 1;
@@ -91,6 +109,8 @@ section {
     opacity: 0.5;
   }
 
+  /* Grid container for the set of images in the 1st section */
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -99,11 +119,7 @@ section {
 
 }
 
-a > img {
-    transition: opacity .3s linear;
-    
-}
-
+/* Styling for the content below the images in the first section */
 
 .title {
     font-size: 24px;
@@ -125,6 +141,8 @@ a > img {
     text-transform: uppercase;
 }
 
+/* Grid container and image positioning for the 2nd section */
+
 .section2_grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -136,6 +154,8 @@ a > img {
     grid-column: span 2;
 }
 
+/* Grid container for 3rd section and styling of content within the section  */
+
 .section3_grid {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -146,6 +166,8 @@ a > img {
 .sec3-content {
     text-align: center;
 }
+
+/* Footer */
 
 footer {
     display: flex;
