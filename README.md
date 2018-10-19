@@ -1,4 +1,4 @@
-# jon-chretien-project2
+# jon-chretien
 This is a recreation of the jon-chretien website
 
 Using the following technologies: html and css. I am recoding the Jon Chretien website and will try to create the website as close as possible to the original.
