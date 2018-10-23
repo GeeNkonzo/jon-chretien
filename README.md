@@ -33,3 +33,8 @@ To view the website visit:  https://geenkonzo.github.io/jon-chretien-project2/in
 - Changed the columns of all my grids to one
 - Centered the footer navbar
 - Changed the font size of banner content and made it smaller
+
+##Changes after review
+- Changed font weight 
+- Adjusted space between text and images
+- add links to section three images
