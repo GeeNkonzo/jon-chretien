@@ -217,14 +217,22 @@ footer p {
         text-align: center;
     }
     nav {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr;
         text-align: center;
         width: 100%;
-    }
+           }
+
     .copyright {
         display:block;
         justify-content: center;
         width:100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .section3_grid {
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
