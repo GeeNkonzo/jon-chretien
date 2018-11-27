@@ -37,4 +37,6 @@ To view the website visit: https://geenkonzo.github.io/jon-chretien/index.html
 ##Changes after review
 - Changed font weight 
 - Adjusted space between text and images
-- add links to section three images
+- Added links to section three images
+- Responsiveness for section 3 grid and navbar edited
+- Commenting on index.html document edited
